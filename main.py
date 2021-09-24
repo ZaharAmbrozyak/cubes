@@ -17,4 +17,7 @@ ax.tick_params(axis='both', which='major', labelsize=14)
 
 # Задати діапазон для кожної з осей.
 ax.axis([0, 5100, 0, 125000000100])
+
+plt.savefig("cube_numbers.png", bbox_inches='tight')
+
 plt.show()
